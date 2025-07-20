@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1080164415, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: loc_0x100001D00000110_127
+  m_EditorClassIdentifier: 
+  mLocalizedStringsKeys:
+  - Dlg_CD1989CE.DisplayName
+  - Dlg_CD1989CE.Text
+  - Dlg_6053B7CE.DisplayName
+  - Dlg_15619449.DisplayName
+  - Dlg_8B2C4726.DisplayName
+  - Dlg_4FF814D8.DisplayName
+  - Dlg_C4CD0920.DisplayName
+  - Dlg_C4CD0920.Text
+  - Dlg_238D4BE2.DisplayName
+  - Dlg_A31FCA2E.DisplayName
+  - Dlg_AE0F9DCC.DisplayName
+  - Dlg_AE0F9DCC.Text
+  - Dlg_CEB59D8E.DisplayName
+  - DFr_A1466A5A.Text
+  - DFr_67534182.Text
+  - DFr_519746B7.Text
+  - DFr_D3F53340.Text
+  - DFr_D62161DC.Text
+  - DFr_1ACD857C.Text
+  - DFr_726992FA.Text
+  - DFr_DD114D3F.Text
+  - DFr_3415D83F.Text
+  - DFr_E0A4B59F.Text
+  - DFr_63992FBC.Text
+  - DFr_209DE260.Text
+  - Ntt_FFF5253F.DisplayName
+  - Ntt_FFF5253F.Text
+  - Ntt_ED9DBFBA.DisplayName
+  - Ntt_ED9DBFBA.Text
+  - Ntt_E653FCBF.DisplayName
+  - Ntt_E653FCBF.Text
+  - Ntt_484AB82F.DisplayName
+  - Ntt_484AB82F.Text
+  - Ntt_B5BA8CA0.DisplayName
+  - Ntt_B5BA8CA0.Text
+  - Ntt_D667FC78.DisplayName
+  - Ntt_D667FC78.Text
+  - Ntt_B2ED4D4B.DisplayName
+  - Ntt_B2ED4D4B.Text
+  - Ntt_3EBC8C09.DisplayName
+  mLocalizedStringsValues:
+  - AML in the bone marrow
+  - 
+  - welcome & handle panel tutorial
+  - portal tutorial
+  - AML in the spinal cord
+  - most patients...
+  - conclusion
+  - 
+  - synopsis
+  - famous last words
+  - goodbye
+  - 
+  - presentation of assets
+  - "Here in the bone marrow, you\u2019ll see how the FLT3-ITD mutation activates
+    early \u2014 right at the source. It drives uncontrolled cell growth and plays
+    a key role in the development of AML."
+  - "Welcome to this VR prototype. Here, an emotional and immersive story is being
+    created that explains the pathology and treatment options of Acute Myeloid Leukemia
+    in a way that is easy for anyone to understand\u2014without oversimplifying the
+    complexity of the disease."
+  - "Look at your hands: you\u2019ll see a small Joystick for your thumb - a thumbstick!
+    If you point the controller towards a portal and push the thumbstick forward,
+    you will teleport to a new location."
+  - Sometimes, I will teleport you directly to another point in the room. This allows
+    me to guide you through the environment step by step. I just did that.
+  - 'Now we try the portal: remember the thumbstick? Aim at the portal with your
+    controller and push the thumbstick forward to aim, let go to jump.'
+  - "We are now in the spinal cord. This is where you\u2019ll learn about the burden
+    of AML \u2014 and how the FLT3-ITD mutation makes it even more aggressive and
+    harder to treat."
+  - "Most patients with the FLT3-ITD+ mutation face the worst prognosis \u2014 even
+    current guidelines confirm that. As we move through this funnel, built from the
+    endpoints of major studies, you\u2019ll see how treatment options narrow\u2026"
+  - "\u2026and one conclusion becomes clear: for FLT3-ITD+, there\u2019s a targeted
+    answer \u2014 VANFLYTA\xAE. This is where rare mutation meets precision treatment."
+  - "Let\u2019s now enter the VANFLYTA Campus, where you\u2019ll explore the therapy
+    in detail \u2014 including a factual overview, visualized data sets, and their
+    clinical sources."
+  - "Welcome to the therapy zone. Here, you\u2019ll explore the mode of action of
+    VANFLYTA\xAE, and follow its role across all phases of treatment \u2014 induction,
+    consolidation, and maintenance. Watch closely: complete remission triples, and
+    overall survival doubles."
+  - "You\u2019ve just experienced a first glimpse into this VR prototype \u2014 a
+    foundation for something much bigger. The final content will be developed together
+    with you, in co-creation workshops, to ensure it truly fits the needs of clinical
+    practice.\n\nThank you for taking this journey with us. Please remove your headset
+    now \u2014 and we look forward to shaping the next steps together."
+  - here you can see some examples of 3D assets that we can integrate into the application.
+    designing the actual models will be an essential part of the application.
+  - erythrocyte 1
+  - 
+  - flowing cells
+  - 
+  - leukocyte 1
+  - 
+  - Schistocyte full
+  - 
+  - thrombocyte
+  - 
+  - C3 animation
+  - 
+  - DNA 1
+  - 
+  - medical narrator
+  mLocalizedAudioAssetsKeys:
+  - DFr_A1466A5A.Text
+  - DFr_67534182.Text
+  - DFr_519746B7.Text
+  - DFr_D3F53340.Text
+  - DFr_D62161DC.Text
+  - DFr_1ACD857C.Text
+  - DFr_726992FA.Text
+  - DFr_DD114D3F.Text
+  - DFr_3415D83F.Text
+  - DFr_E0A4B59F.Text
+  - DFr_63992FBC.Text
+  - DFr_209DE260.Text
+  mLocalizedAudioAssetsValues: 9b0200001a000001520200001a000001f505000015000001f205000015000001ef05000015000001940200001a000001c10200001a000001be0200001a000001ef0200001a000001fd05000015000001fa05000015000001340300001a000001

@@ -1,0 +1,1105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5251026764529269266
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1655710724, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: HierarchyManager
+  m_EditorClassIdentifier: 
+  serializedNodes:
+  - id: 72057718591979521
+    parent: 0
+    technicalName: Vanflyta
+    articyType: Project
+    childCount: 10
+  - id: 216172786292838683
+    parent: 72057718591979521
+    technicalName: ProjectSettings
+    articyType: ProjectSettingsFolder
+    childCount: 4
+  - id: 72057718591979532
+    parent: 216172786292838683
+    technicalName: 
+    articyType: ProjectSettingsFlow
+    childCount: 0
+  - id: 72057718591979527
+    parent: 216172786292838683
+    technicalName: 
+    articyType: ProjectSettingsGeneral
+    childCount: 0
+  - id: 72057718591979530
+    parent: 216172786292838683
+    technicalName: 
+    articyType: ProjectSettingsJourneys
+    childCount: 0
+  - id: 72057718591979531
+    parent: 216172786292838683
+    technicalName: 
+    articyType: ProjectSettingsLocation
+    childCount: 0
+  - id: 216172782840400980
+    parent: 72057718591979521
+    technicalName: GlobalVariables
+    articyType: GlobalVariables
+    childCount: 0
+  - id: 216172783251375095
+    parent: 72057718591979521
+    technicalName: Flow
+    articyType: Flow
+    childCount: 20
+  - id: 72057705707078196
+    parent: 216172783251375095
+    technicalName: Ins_D87A47F8
+    articyType: Instruction
+    childCount: 0
+  - id: 72057705707078272
+    parent: 216172783251375095
+    technicalName: Ins_CB352811
+    articyType: Instruction
+    childCount: 0
+  - id: 72057718591979950
+    parent: 216172783251375095
+    technicalName: Ins_4F23F5A6
+    articyType: Instruction
+    childCount: 0
+  - id: 72057705707078315
+    parent: 216172783251375095
+    technicalName: Ins_DD390AE6
+    articyType: Instruction
+    childCount: 0
+  - id: 72057705707078388
+    parent: 216172783251375095
+    technicalName: Ins_B3B30EE0
+    articyType: Instruction
+    childCount: 0
+  - id: 72057705707078200
+    parent: 216172783251375095
+    technicalName: Dlg_6053B7CE
+    articyType: Dialogue
+    childCount: 2
+  - id: 72057705707078207
+    parent: 72057705707078200
+    technicalName: DFr_67534182
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057705707078214
+    parent: 72057705707078200
+    technicalName: DFr_519746B7
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057705707078276
+    parent: 216172783251375095
+    technicalName: Dlg_8B2C4726
+    articyType: Dialogue
+    childCount: 1
+  - id: 72057705707078283
+    parent: 72057705707078276
+    technicalName: DFr_1ACD857C
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057718591979908
+    parent: 216172783251375095
+    technicalName: Dlg_CD1989CE
+    articyType: Dialogue
+    childCount: 1
+  - id: 72057718591979915
+    parent: 72057718591979908
+    technicalName: DFr_A1466A5A
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057705707078319
+    parent: 216172783251375095
+    technicalName: Dlg_4FF814D8
+    articyType: Dialogue
+    childCount: 1
+  - id: 72057705707078326
+    parent: 72057705707078319
+    technicalName: DFr_726992FA
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057705707078392
+    parent: 216172783251375095
+    technicalName: Dlg_A31FCA2E
+    articyType: Dialogue
+    childCount: 1
+  - id: 72057705707078399
+    parent: 72057705707078392
+    technicalName: DFr_E0A4B59F
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057705707078231
+    parent: 216172783251375095
+    technicalName: Ins_00400251
+    articyType: Instruction
+    childCount: 0
+  - id: 72057705707078432
+    parent: 216172783251375095
+    technicalName: Ins_437D663A
+    articyType: Instruction
+    childCount: 0
+  - id: 72057705707078342
+    parent: 216172783251375095
+    technicalName: Ins_D8127259
+    articyType: Instruction
+    childCount: 0
+  - id: 72057705707078411
+    parent: 216172783251375095
+    technicalName: Ins_7C4073F3
+    articyType: Instruction
+    childCount: 0
+  - id: 72057705707078236
+    parent: 216172783251375095
+    technicalName: Dlg_15619449
+    articyType: Dialogue
+    childCount: 2
+  - id: 72057705707078243
+    parent: 72057705707078236
+    technicalName: DFr_D3F53340
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057684232242664
+    parent: 72057705707078236
+    technicalName: DFr_D62161DC
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057705707078437
+    parent: 216172783251375095
+    technicalName: Dlg_CEB59D8E
+    articyType: Dialogue
+    childCount: 1
+  - id: 72057705707078444
+    parent: 72057705707078437
+    technicalName: DFr_209DE260
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057705707078347
+    parent: 216172783251375095
+    technicalName: Dlg_C4CD0920
+    articyType: Dialogue
+    childCount: 1
+  - id: 72057705707078355
+    parent: 72057705707078347
+    technicalName: DFr_DD114D3F
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057705707078416
+    parent: 216172783251375095
+    technicalName: Dlg_AE0F9DCC
+    articyType: Dialogue
+    childCount: 1
+  - id: 72057705707078424
+    parent: 72057705707078416
+    technicalName: DFr_63992FBC
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057705707078363
+    parent: 216172783251375095
+    technicalName: Ins_D62E6BF3
+    articyType: Instruction
+    childCount: 0
+  - id: 72057705707078368
+    parent: 216172783251375095
+    technicalName: Dlg_238D4BE2
+    articyType: Dialogue
+    childCount: 1
+  - id: 72057705707078375
+    parent: 72057705707078368
+    technicalName: DFr_3415D83F
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 216172785005863603
+    parent: 72057718591979521
+    technicalName: Entities
+    articyType: Entities
+    childCount: 2
+  - id: 72057718591979975
+    parent: 216172785005863603
+    technicalName: Ufo_D64F442E
+    articyType: EntitiesUserFolder
+    childCount: 3
+  - id: 72057718591979977
+    parent: 72057718591979975
+    technicalName: Ufo_B78186B6
+    articyType: EntitiesUserFolder
+    childCount: 5
+  - id: 72057718591979979
+    parent: 72057718591979977
+    technicalName: Ntt_FFF5253F
+    articyType: Entity
+    childCount: 0
+  - id: 72057718591979999
+    parent: 72057718591979977
+    technicalName: Ntt_ED9DBFBA
+    articyType: Entity
+    childCount: 0
+  - id: 72057718591980025
+    parent: 72057718591979977
+    technicalName: Ntt_E653FCBF
+    articyType: Entity
+    childCount: 0
+  - id: 72057705707078520
+    parent: 72057718591979977
+    technicalName: Ntt_484AB82F
+    articyType: Entity
+    childCount: 0
+  - id: 72057705707078533
+    parent: 72057718591979977
+    technicalName: Ntt_B5BA8CA0
+    articyType: Entity
+    childCount: 0
+  - id: 72057705707078457
+    parent: 72057718591979975
+    technicalName: Ufo_77D62F55
+    articyType: EntitiesUserFolder
+    childCount: 1
+  - id: 72057705707078459
+    parent: 72057705707078457
+    technicalName: Ntt_D667FC78
+    articyType: Entity
+    childCount: 0
+  - id: 72057705707078545
+    parent: 72057718591979975
+    technicalName: Ntt_B2ED4D4B
+    articyType: Entity
+    childCount: 0
+  - id: 72057705707078582
+    parent: 216172785005863603
+    technicalName: Ntt_3EBC8C09
+    articyType: Entity
+    childCount: 0
+  - id: 216172782940115884
+    parent: 72057718591979521
+    technicalName: Locations
+    articyType: Locations
+    childCount: 5
+  - id: 72057718591979805
+    parent: 216172782940115884
+    technicalName: Loc_81A02C11
+    articyType: Location
+    childCount: 8
+  - id: 72057718591979891
+    parent: 72057718591979805
+    technicalName: Spt_7E865C64
+    articyType: Spot
+    childCount: 0
+  - id: 72057718591979899
+    parent: 72057718591979805
+    technicalName: Spt_29D88272
+    articyType: Spot
+    childCount: 0
+  - id: 72057718591980037
+    parent: 72057718591979805
+    technicalName: Lnk_32C99A36
+    articyType: Link
+    childCount: 0
+  - id: 72057718591980040
+    parent: 72057718591979805
+    technicalName: Lnk_15764A88
+    articyType: Link
+    childCount: 0
+  - id: 72057705707078557
+    parent: 72057718591979805
+    technicalName: Lnk_D40A40BE
+    articyType: Link
+    childCount: 0
+  - id: 72057705707078560
+    parent: 72057718591979805
+    technicalName: Lnk_C528AE33
+    articyType: Link
+    childCount: 0
+  - id: 72057705707078563
+    parent: 72057718591979805
+    technicalName: Lnk_66AC1367
+    articyType: Link
+    childCount: 0
+  - id: 72057710002049021
+    parent: 72057718591979805
+    technicalName: LIm_9BE80F31
+    articyType: LocationImage
+    childCount: 0
+  - id: 72057718591979843
+    parent: 216172782940115884
+    technicalName: Loc_7FF337B2
+    articyType: Location
+    childCount: 5
+  - id: 72057705707078312
+    parent: 72057718591979843
+    technicalName: Lnk_3ED678A0
+    articyType: Link
+    childCount: 0
+  - id: 72057705707078308
+    parent: 72057718591979843
+    technicalName: Spt_A28ECD28
+    articyType: Spot
+    childCount: 0
+  - id: 72057705707078304
+    parent: 72057718591979843
+    technicalName: Spt_4A32AE6E
+    articyType: Spot
+    childCount: 0
+  - id: 72057718591979887
+    parent: 72057718591979843
+    technicalName: Spt_7C430886
+    articyType: Spot
+    childCount: 0
+  - id: 72057718591979862
+    parent: 72057718591979843
+    technicalName: LIm_F07DD0C6
+    articyType: LocationImage
+    childCount: 0
+  - id: 72057718591979867
+    parent: 216172782940115884
+    technicalName: Loc_8B910494
+    articyType: Location
+    childCount: 3
+  - id: 72057705707078407
+    parent: 72057718591979867
+    technicalName: Spt_B59CFAE4
+    articyType: Spot
+    childCount: 0
+  - id: 72057718591979895
+    parent: 72057718591979867
+    technicalName: Spt_1FF2E7DA
+    articyType: Spot
+    childCount: 0
+  - id: 72057718591979882
+    parent: 72057718591979867
+    technicalName: LIm_1777F9C1
+    articyType: LocationImage
+    childCount: 0
+  - id: 72057705707078149
+    parent: 216172782940115884
+    technicalName: Loc_1BFEE3D6
+    articyType: Location
+    childCount: 4
+  - id: 72057705707078193
+    parent: 72057705707078149
+    technicalName: Lnk_646FE507
+    articyType: Link
+    childCount: 0
+  - id: 72057705707078189
+    parent: 72057705707078149
+    technicalName: Spt_6224F8E1
+    articyType: Spot
+    childCount: 0
+  - id: 72057705707078173
+    parent: 72057705707078149
+    technicalName: Spt_016EA5CF
+    articyType: Spot
+    childCount: 0
+  - id: 72057705707078168
+    parent: 72057705707078149
+    technicalName: LIm_97D360CE
+    articyType: LocationImage
+    childCount: 0
+  - id: 72057705707078256
+    parent: 216172782940115884
+    technicalName: Loc_BA99E581
+    articyType: Location
+    childCount: 3
+  - id: 72057705707078268
+    parent: 72057705707078256
+    technicalName: Spt_B7AF244F
+    articyType: Spot
+    childCount: 0
+  - id: 72057705707078296
+    parent: 72057705707078256
+    technicalName: Lnk_37ED2EE8
+    articyType: Link
+    childCount: 0
+  - id: 72057710002049106
+    parent: 72057705707078256
+    technicalName: LIm_25909D27
+    articyType: LocationImage
+    childCount: 0
+  - id: 216172782386062064
+    parent: 72057718591979521
+    technicalName: Documents
+    articyType: Documents
+    childCount: 0
+  - id: 216172782708290162
+    parent: 72057718591979521
+    technicalName: Journeys
+    articyType: Journeys
+    childCount: 0
+  - id: 216172782815217020
+    parent: 72057718591979521
+    technicalName: TemplateDesign
+    articyType: TemplateDesign
+    childCount: 3
+  - id: 216172785641213376
+    parent: 216172782815217020
+    technicalName: Features
+    articyType: Features
+    childCount: 2
+  - id: 72057718591979600
+    parent: 216172785641213376
+    technicalName: DefaultExtendedCharacterFeature
+    articyType: Feature
+    childCount: 0
+  - id: 72057718591979535
+    parent: 216172785641213376
+    technicalName: DefaultBasicCharacterFeature
+    articyType: Feature
+    childCount: 0
+  - id: 216172782852592046
+    parent: 216172782815217020
+    technicalName: PropertyTemplates
+    articyType: PropertyTemplates
+    childCount: 6
+  - id: 216172785252364728
+    parent: 216172782852592046
+    technicalName: 
+    articyType: TypedPropertyTemplates
+    childCount: 0
+  - id: 216172783051006960
+    parent: 216172782852592046
+    technicalName: 
+    articyType: TypedPropertyTemplates
+    childCount: 0
+  - id: 216172783962167179
+    parent: 216172782852592046
+    technicalName: 
+    articyType: TypedPropertyTemplates
+    childCount: 0
+  - id: 216172785725457481
+    parent: 216172782852592046
+    technicalName: 
+    articyType: TypedPropertyTemplates
+    childCount: 0
+  - id: 216172783022940736
+    parent: 216172782852592046
+    technicalName: 
+    articyType: TypedPropertyTemplates
+    childCount: 0
+  - id: 216172783984629646
+    parent: 216172782852592046
+    technicalName: 
+    articyType: TypedPropertyTemplates
+    childCount: 0
+  - id: 216172784713633229
+    parent: 216172782815217020
+    technicalName: Templates
+    articyType: Templates
+    childCount: 18
+  - id: 216172782925599000
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172785817780125
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172782164859599
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172784493379826
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172786085793667
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172784138869361
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 2
+  - id: 72057718591979688
+    parent: 216172784138869361
+    technicalName: DefaultMainCharacterTemplate
+    articyType: Template
+    childCount: 0
+  - id: 72057718591979646
+    parent: 216172784138869361
+    technicalName: DefaultSupportingCharacterTemplate
+    articyType: Template
+    childCount: 0
+  - id: 216172783944319605
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172782447180314
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172785542236144
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172785234488879
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172785027381783
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172786328477020
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172784576846222
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172783507662867
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172783227679388
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172786225525660
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172784638832577
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172784917004375
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172782503605138
+    parent: 72057718591979521
+    technicalName: 
+    articyType: RuleSets
+    childCount: 1
+  - id: 72057718591979789
+    parent: 216172782503605138
+    technicalName: 
+    articyType: RuleSet
+    childCount: 1
+  - id: 72057718591979792
+    parent: 72057718591979789
+    technicalName: 
+    articyType: RuleSetPackage
+    childCount: 0
+  - id: 216172783392894804
+    parent: 72057718591979521
+    technicalName: Assets
+    articyType: Assets
+    childCount: 7
+  - id: 72057718591979818
+    parent: 216172783392894804
+    technicalName: Ufo_3B854D7B
+    articyType: AssetsUserFolder
+    childCount: 2
+  - id: 72057718591979820
+    parent: 72057718591979818
+    technicalName: Ufo_CC4DD6F0
+    articyType: AssetsUserFolder
+    childCount: 2
+  - id: 72057718591979822
+    parent: 72057718591979820
+    technicalName: Ast_1591C0BB
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078154
+    parent: 72057718591979820
+    technicalName: Ast_97454376
+    articyType: Asset
+    childCount: 0
+  - id: 72057718591979984
+    parent: 72057718591979818
+    technicalName: Ufo_3CBB4CAB
+    articyType: AssetsUserFolder
+    childCount: 4
+  - id: 72057718591979986
+    parent: 72057718591979984
+    technicalName: Ufo_2BA25225
+    articyType: AssetsUserFolder
+    childCount: 4
+  - id: 72057718591979988
+    parent: 72057718591979986
+    technicalName: Ast_E8853F9C
+    articyType: Asset
+    childCount: 0
+  - id: 72057718591980030
+    parent: 72057718591979986
+    technicalName: Ast_359AFFC7
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078529
+    parent: 72057718591979986
+    technicalName: Ast_83D114C1
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078538
+    parent: 72057718591979986
+    technicalName: Ast_5EF612F3
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078464
+    parent: 72057718591979984
+    technicalName: Ufo_3FACF3BF
+    articyType: AssetsUserFolder
+    childCount: 1
+  - id: 72057705707078466
+    parent: 72057705707078464
+    technicalName: Ast_D1648567
+    articyType: Asset
+    childCount: 0
+  - id: 72057718591980004
+    parent: 72057718591979984
+    technicalName: Ufo_2D01CC80
+    articyType: AssetsUserFolder
+    childCount: 1
+  - id: 72057718591980006
+    parent: 72057718591980004
+    technicalName: Ast_95BA7337
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078550
+    parent: 72057718591979984
+    technicalName: Ast_B85CE441
+    articyType: Asset
+    childCount: 0
+  - id: 72057718591979799
+    parent: 216172783392894804
+    technicalName: Ufo_FA6B3842
+    articyType: AssetsUserFolder
+    childCount: 13
+  - id: 72057705707078452
+    parent: 72057718591979799
+    technicalName: Ast_A07B4871
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078299
+    parent: 72057718591979799
+    technicalName: Ast_8B937996
+    articyType: Asset
+    childCount: 0
+  - id: 72057684232242674
+    parent: 72057718591979799
+    technicalName: Ast_3F75DC69
+    articyType: Asset
+    childCount: 0
+  - id: 72057684232242682
+    parent: 72057718591979799
+    technicalName: Ast_017A5E74
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078337
+    parent: 72057718591979799
+    technicalName: Ast_57DC65E9
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078334
+    parent: 72057718591979799
+    technicalName: Ast_99A049C1
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078383
+    parent: 72057718591979799
+    technicalName: Ast_0768FDDD
+    articyType: Asset
+    childCount: 0
+  - id: 72057684232242671
+    parent: 72057718591979799
+    technicalName: Ast_C21486A3
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078292
+    parent: 72057718591979799
+    technicalName: Ast_FD666207
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078223
+    parent: 72057718591979799
+    technicalName: Ast_7C327C8D
+    articyType: Asset
+    childCount: 0
+  - id: 72057684232242685
+    parent: 72057718591979799
+    technicalName: Ast_E1C4CF89
+    articyType: Asset
+    childCount: 0
+  - id: 72057684232242677
+    parent: 72057718591979799
+    technicalName: Ast_BC0EA676
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078226
+    parent: 72057718591979799
+    technicalName: Ast_0ABAC5E7
+    articyType: Asset
+    childCount: 0
+  - id: 72057718591979795
+    parent: 216172783392894804
+    technicalName: Ufo_AD94A518
+    articyType: AssetsUserFolder
+    childCount: 1
+  - id: 72057705707078586
+    parent: 72057718591979795
+    technicalName: Ast_A69F1505
+    articyType: Asset
+    childCount: 0
+  - id: 72057718591979801
+    parent: 216172783392894804
+    technicalName: Ufo_D6AC0CBB
+    articyType: AssetsUserFolder
+    childCount: 0
+  - id: 72057718591979810
+    parent: 216172783392894804
+    technicalName: Ufo_2E7E40E8
+    articyType: AssetsUserFolder
+    childCount: 3
+  - id: 72057718591979829
+    parent: 72057718591979810
+    technicalName: Ufo_309BC2C2
+    articyType: AssetsUserFolder
+    childCount: 5
+  - id: 72057710002049014
+    parent: 72057718591979829
+    technicalName: Ast_60AFA415
+    articyType: Asset
+    childCount: 0
+  - id: 72057718591979855
+    parent: 72057718591979829
+    technicalName: Ast_F6001057
+    articyType: Asset
+    childCount: 0
+  - id: 72057718591979875
+    parent: 72057718591979829
+    technicalName: Ast_5963B469
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078161
+    parent: 72057718591979829
+    technicalName: Ast_EBCBC4F2
+    articyType: Asset
+    childCount: 0
+  - id: 72057710002049099
+    parent: 72057718591979829
+    technicalName: Ast_A37F2214
+    articyType: Asset
+    childCount: 0
+  - id: 72057718591979812
+    parent: 72057718591979810
+    technicalName: Ufo_1712ACE4
+    articyType: AssetsUserFolder
+    childCount: 8
+  - id: 72057718591979814
+    parent: 72057718591979812
+    technicalName: Ast_951519BA
+    articyType: Asset
+    childCount: 0
+  - id: 72057718591979826
+    parent: 72057718591979812
+    technicalName: Ast_3790CDE6
+    articyType: Asset
+    childCount: 0
+  - id: 72057718591979848
+    parent: 72057718591979812
+    technicalName: Ast_343C284F
+    articyType: Asset
+    childCount: 0
+  - id: 72057718591979852
+    parent: 72057718591979812
+    technicalName: Ast_F7EDD6BB
+    articyType: Asset
+    childCount: 0
+  - id: 72057718591979872
+    parent: 72057718591979812
+    technicalName: Ast_5F511645
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078158
+    parent: 72057718591979812
+    technicalName: Ast_372188ED
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078261
+    parent: 72057718591979812
+    technicalName: Ast_19EC860E
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078265
+    parent: 72057718591979812
+    technicalName: Ast_D91446D4
+    articyType: Asset
+    childCount: 0
+  - id: 72057718591979992
+    parent: 72057718591979810
+    technicalName: Ufo_C09AC9A6
+    articyType: AssetsUserFolder
+    childCount: 3
+  - id: 72057718591979994
+    parent: 72057718591979992
+    technicalName: Ufo_8C1714A3
+    articyType: AssetsUserFolder
+    childCount: 5
+  - id: 72057718591980010
+    parent: 72057718591979994
+    technicalName: Ufo_9FAB15EC
+    articyType: AssetsUserFolder
+    childCount: 3
+  - id: 72057718591980012
+    parent: 72057718591980010
+    technicalName: Ast_7A9124AF
+    articyType: Asset
+    childCount: 0
+  - id: 72057718591980017
+    parent: 72057718591980010
+    technicalName: Ast_3AC18729
+    articyType: Asset
+    childCount: 0
+  - id: 72057718591980021
+    parent: 72057718591980010
+    technicalName: Ast_8CE09FB4
+    articyType: Asset
+    childCount: 0
+  - id: 72057718591979996
+    parent: 72057718591979994
+    technicalName: Ast_65940703
+    articyType: Asset
+    childCount: 0
+  - id: 72057718591980034
+    parent: 72057718591979994
+    technicalName: Ast_8EE22FF8
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078525
+    parent: 72057718591979994
+    technicalName: Ast_85444A86
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078542
+    parent: 72057718591979994
+    technicalName: Ast_1871484B
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078470
+    parent: 72057718591979992
+    technicalName: Ufo_6503B0E7
+    articyType: AssetsUserFolder
+    childCount: 12
+  - id: 72057705707078472
+    parent: 72057705707078470
+    technicalName: Ast_C0973077
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078476
+    parent: 72057705707078470
+    technicalName: Ast_707A87BB
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078480
+    parent: 72057705707078470
+    technicalName: Ast_3F31F14C
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078484
+    parent: 72057705707078470
+    technicalName: Ast_0E772C3F
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078488
+    parent: 72057705707078470
+    technicalName: Ast_D86CFB36
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078492
+    parent: 72057705707078470
+    technicalName: Ast_6742C22E
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078496
+    parent: 72057705707078470
+    technicalName: Ast_3A344469
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078500
+    parent: 72057705707078470
+    technicalName: Ast_8EEAC34D
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078504
+    parent: 72057705707078470
+    technicalName: Ast_B4597B33
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078508
+    parent: 72057705707078470
+    technicalName: Ast_445FDF22
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078516
+    parent: 72057705707078470
+    technicalName: Ast_7F6820BE
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078512
+    parent: 72057705707078470
+    technicalName: Ast_2588CD07
+    articyType: Asset
+    childCount: 0
+  - id: 72057705707078554
+    parent: 72057718591979992
+    technicalName: Ast_CCDC04EA
+    articyType: Asset
+    childCount: 0
+  - id: 72057718591979803
+    parent: 216172783392894804
+    technicalName: Ufo_141C8602
+    articyType: AssetsUserFolder
+    childCount: 0
+  - id: 72057718591979797
+    parent: 216172783392894804
+    technicalName: Ufo_1233F7F6
+    articyType: AssetsUserFolder
+    childCount: 0
+--- !u!114 &-3378599273110634287
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1174674681, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: LocalizationManager
+  m_EditorClassIdentifier: 
+  mLocalizeObjectDefinitions: 0
+  mLanguageId: 127
+  mLanguages:
+  - mArticyLanguageId: 127
+    mCultureName: en-GB
+    mLanguageName: English (United Kingdom)
+    mIsVoiceOver: 1
+  mThrowOnMissingText: 0
+  mClearOnLanguageSwitch: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1676762633, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDatabase
+  m_EditorClassIdentifier: 
+  mHierarchy: {fileID: -5251026764529269266}
+  mLocalization: {fileID: -3378599273110634287}
+  mRuleSetId: 124554051853
+  mArticyAssetsUseResourcesFolder: 1
+  mInternalProject:
+    mName: Vanflyta
+    mDetailName: 
+    mId: 603b74fb-2deb-4450-9917-54e186ce1f88
+    mTechnicalName: Vanflyta
+  mImportedAssets:
+  - Assets/Bilder/medical_narrator.png
+  - Assets/Audio/text_panel.mp3
+  - Assets/Audio/welcome.mp3
+  - Assets/Audio/spinal_cord.mp3
+  - Assets/Audio/bone_marrow.mp3
+  - Assets/Audio/one_conclusion.mp3
+  - Assets/Audio/most_patients.mp3
+  - Assets/Audio/outroduction.mp3
+  - Assets/Audio/3D_assets.mp3
+  - Assets/Audio/portal1.mp3
+  - Assets/Audio/forced_teleport.mp3
+  - Assets/Audio/thumbstick.mp3
+  - Assets/Audio/goodbye.mp3
+  - Assets/Audio/therapy_zone.mp3
+  - Assets/Images/locations/bone_marrow.png
+  - Assets/Images/locations/bone_marrow_-_preview.png
+  - Assets/Images/locations/dark_corridor_-_preview.png
+  - Assets/Images/locations/dark_room_-_preview.png
+  - Assets/Images/locations/future_lab_-_preview.jpg
+  - Assets/Images/locations/onVR_onboarding_room_-_preview.jpg
+  - Assets/Images/locations/spinal_cord_and_brain_01.jpg
+  - Assets/Images/locations/spinal_cord_and_brain_-_preview.jpg
+  - Assets/Images/floor_plans/fp_DarkRoomWithCorridor.png
+  - Assets/Images/floor_plans/fp_FutureLab.png
+  - Assets/Images/floor_plans/fp_onVR_OnboardingRoom.png
+  - Assets/Images/floor_plans/fp_BoneMarrow_WithPath.png
+  - Assets/Images/medical/blood_cells/erythrocyte_1.png
+  - Assets/Images/medical/blood_cells/flowing_cells/flowing_cells_01.png
+  - Assets/Images/medical/blood_cells/flowing_cells/flowing_cells_03.png
+  - Assets/Images/medical/blood_cells/flowing_cells/flowing_cells_04.png
+  - Assets/Images/medical/blood_cells/leukocyte_1.png
+  - Assets/Images/medical/blood_cells/schistocyte_full.png
+  - Assets/Images/medical/blood_cells/thrombocyte.png
+  - Assets/Images/medical/C3_Convertase/C3_10.png
+  - Assets/Images/medical/C3_Convertase/C3_11.png
+  - Assets/Images/medical/C3_Convertase/C3_12.png
+  - Assets/Images/medical/C3_Convertase/C3_13.png
+  - Assets/Images/medical/C3_Convertase/C3_14.png
+  - Assets/Images/medical/C3_Convertase/C3_15.png
+  - Assets/Images/medical/C3_Convertase/C3_16.png
+  - Assets/Images/medical/C3_Convertase/C3_17.png
+  - Assets/Images/medical/C3_Convertase/C3_18.png
+  - Assets/Images/medical/C3_Convertase/C3_19.png
+  - Assets/Images/medical/C3_Convertase/C3_21.png
+  - Assets/Images/medical/C3_Convertase/C3_20.png
+  - Assets/Images/medical/DNA_1.png
+  - Assets/3D_models/locations/BoneMarrow.glb
+  - Assets/3D_models/locations/onVR_onboarding_room.glb
+  - Assets/3D_models/medical/blood_cells/erythrocyte_1.glb
+  - Assets/3D_models/medical/blood_cells/leukocyte_1.glb
+  - Assets/3D_models/medical/blood_cells/Schistocyte_full.glb
+  - Assets/3D_models/medical/blood_cells/thrombocyte.glb
+  - Assets/3D_models/medical/vessels/flowing_cell_animation.glb
+  - Assets/3D_models/medical/complement_system/C3_animation.glb
+  - Assets/3D_models/medical/DNA_1.glb
+  - Assets/Images/floor_plans/fp_SpinalCordRoom.png
+  - Assets/Audio/portal.mp3
+  mDefaultGlobalVariables: {fileID: 2144548089975574643}
+  mPackages:
+  - PackageId: 72057718591979792
+    PackageName: Alle Objekte
+    PackagePath: package_0x100001D00000110
+    mIsDefaultPackage: 1
+--- !u!114 &2144548089975574643
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f01f63ca5ca87c849bfc639efee0b85f, type: 3}
+  m_Name: DefaultGlobalVariables
+  m_EditorClassIdentifier: 
+  mBoolVariableCache: []
+  mIntVariableCache: []
+  mStringVariableCache: []
+  mLiveBoolVariableCache: []
+  mLiveIntVariableCache: []
+  mLiveStringVariableCache: []
+  mIsInitialized: 1

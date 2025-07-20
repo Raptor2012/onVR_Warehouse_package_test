@@ -1,0 +1,36 @@
+{
+  "name": "com.onvr.warehouse.grabinteraction",
+  "version": "1.0.0",
+  "displayName": "onVR Warehouse - Grab Interaction",
+  "description": "A modular grab interaction system for VR, Web, and Mobile platforms. Supports direct hand interaction, remote grabbing, tap/click, and gaze-pick interactions. Includes Articy integration for narrative-driven interactions.",
+  "unity": "2021.3",
+  "dependencies": {
+    "com.unity.xr.interaction.toolkit": "2.3.0",
+    "com.unity.inputsystem": "1.4.0",
+    "com.unity.xr.core-utils": "2.2.0"
+  },
+  "keywords": [
+    "VR",
+    "Interaction",
+    "Grab",
+    "Mobile",
+    "Web",
+    "XR",
+    "Modular",
+    "Articy",
+    "Narrative"
+  ],
+  "author": {
+    "name": "onliveline.nxt GmbH",
+    "email": "info@onxt.de",
+    "url": "https://onxt.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/onvr-warehouse.git",
+    "directory": "Packages/com.onvr.warehouse.grabinteraction"
+  },
+  "license": "MIT",
+  "type": "library",
+  "hideInEditor": false
+}
