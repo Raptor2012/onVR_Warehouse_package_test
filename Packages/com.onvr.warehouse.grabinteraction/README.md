@@ -16,7 +16,7 @@ A modular grab interaction system for VR, Web, and Mobile platforms with **Artic
 
 1. Open Unity Package Manager (`Window > Package Manager`)
 2. Click the `+` button and select `Add package from git URL`
-3. Enter: `https://github.com/yourusername/onvr-warehouse.git?path=/Packages/com.onvr.warehouse.grabinteraction`
+3. Enter: `https://github.com/Raptor2012/onVR_Warehouse_package_test.git?path=/Packages/com.onvr.warehouse.grabinteraction`
 
 ### Via manifest.json
 
@@ -25,7 +25,7 @@ Add this to your `Packages/manifest.json`:
 ```json
 {
   "dependencies": {
-    "com.onvr.warehouse.grabinteraction": "https://github.com/yourusername/onvr-warehouse.git?path=/Packages/com.onvr.warehouse.grabinteraction"
+    "com.onvr.warehouse.grabinteraction": "https://github.com/Raptor2012/onVR_Warehouse_package_test.git?path=/Packages/com.onvr.warehouse.grabinteraction"
   }
 }
 ```
@@ -131,7 +131,7 @@ MIT License - see LICENSE file for details
 
 ## 🆘 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/onvr-warehouse/issues)
+- **Issues**: [GitHub Issues](https://github.com/Raptor2012/onVR_Warehouse_package_test/issues)
 - **Email**: info@onxt.de
 - **Website**: https://onxt.de
 

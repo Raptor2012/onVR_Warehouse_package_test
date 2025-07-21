@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/onvr-warehouse.git",
+    "url": "https://github.com/Raptor2012/onVR_Warehouse_package_test.git",
     "directory": "Packages/com.onvr.warehouse.grabinteraction"
   },
   "license": "MIT",
