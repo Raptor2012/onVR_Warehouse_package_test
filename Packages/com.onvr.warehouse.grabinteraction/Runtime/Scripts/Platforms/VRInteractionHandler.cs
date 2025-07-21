@@ -33,8 +33,8 @@ namespace OnVR.Warehouse.GrabInteraction.Platforms
 
         // Private fields
         private InteractionManager _manager;
-        private readonly Dictionary<UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInteractor, GrabbableObject> _activeGrabs = new Dictionary<UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInteractor, GrabbableObject>();
-        private UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInteractor[] _interactors;
+        private readonly Dictionary<XRBaseInteractor, GrabbableObject> _activeGrabs = new Dictionary<XRBaseInteractor, GrabbableObject>();
+        private XRBaseInteractor[] _interactors;
         private Camera _vrCamera;
 
         public void Initialize(InteractionManager manager)
@@ -75,7 +75,7 @@ namespace OnVR.Warehouse.GrabInteraction.Platforms
         public void OnObjectUnregistered(GrabbableObject grabbable)
         {
             // Clean up any active grabs
-            var grabsToRemove = new List<UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInteractor>();
+            var grabsToRemove = new List<XRBaseInteractor>();
             foreach (var kvp in _activeGrabs)
             {
                 if (kvp.Value == grabbable)
@@ -110,7 +110,7 @@ namespace OnVR.Warehouse.GrabInteraction.Platforms
             }
 
             // Find XR interactors
-            _interactors = FindObjectsOfType<UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInteractor>();
+            _interactors = FindObjectsOfType<XRBaseInteractor>();
 
             // Setup remote grab line if not assigned
             if (_remoteGrabLine == null && _enableRemoteGrab)
@@ -219,7 +219,7 @@ namespace OnVR.Warehouse.GrabInteraction.Platforms
             }
         }
 
-        private GrabbableObject GetGrabbableAtInteractor(UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInteractor interactor)
+        private GrabbableObject GetGrabbableAtInteractor(XRBaseInteractor interactor)
         {
             // Check direct collision with interactor
             var colliders = Physics.OverlapSphere(interactor.transform.position, 0.1f, _grabLayerMask);
@@ -251,7 +251,7 @@ namespace OnVR.Warehouse.GrabInteraction.Platforms
             );
         }
 
-        private void PlayHapticFeedback(UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInteractor interactor)
+        private void PlayHapticFeedback(XRBaseInteractor interactor)
         {
             if (!_enableHaptics) return;
 
@@ -266,13 +266,13 @@ namespace OnVR.Warehouse.GrabInteraction.Platforms
         private void SetupGrabbableForVR(GrabbableObject grabbable)
         {
             // Add XR Grab Interactable if not present
-            if (grabbable.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>() == null)
+            if (grabbable.GetComponent<XRGrabInteractable>() == null)
             {
-                var xrInteractable = grabbable.gameObject.AddComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
+                var xrInteractable = grabbable.gameObject.AddComponent<XRGrabInteractable>();
                 
                 // Configure for our system
-                xrInteractable.selectMode = UnityEngine.XR.Interaction.Toolkit.Interactables.InteractableSelectMode.Single;
-                xrInteractable.movementType = UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable.MovementType.VelocityTracking;
+                xrInteractable.selectMode = InteractableSelectMode.Single;
+                xrInteractable.movementType = XRBaseInteractable.MovementType.VelocityTracking;
             }
         }
 
